@@ -11,7 +11,7 @@ class Artist
     @songs = []
   end
 
-  
+  extend Findable::ClassMethods
   def self.all
     @@artists
   end
