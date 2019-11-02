@@ -22,7 +22,5 @@ extend Memorable::ClassMethods
     @artist = artist
   end
 include Paramable::InstanceMethods
-  #def to_param
-  #  name.downcase.gsub(' ', '-')
-  #end
+  
 end
