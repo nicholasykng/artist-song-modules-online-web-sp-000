@@ -10,7 +10,7 @@ class Song
     @@songs << self
   end
 
-  
+  extend Findable::ClassMethods
 
   def self.all
     @@songs
